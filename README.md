@@ -14,17 +14,16 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: black; /* Optional background */
+            background-color: white; /* Background color */
         }
         .game-container {
-            width: 80vw; /* Adjust width as needed */
-            height: 80vh; /* Adjust height as needed */
-            max-width: 1280px; /* Optional max width */
-            max-height: 720px; /* Optional max height */
+            width: 100vw; /* Full width */
+            height: 80vh; /* Adjust height */
+            max-width: 1600px; /* Optional max width (change if needed) */
         }
         iframe {
-            width: 100%;
-            height: 100%;
+            width: 100%; /* Fill container width */
+            height: 100%; /* Fill container height */
             border: none;
         }
     </style>
