@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fullscreen Modd.io Game</title>
+    <title>Demogam - Play Now</title>
     <style>
         body, html {
             margin: 0;
@@ -11,20 +11,17 @@
             width: 100%;
             height: 100%;
             overflow: hidden;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: white; /* Background color */
+            background-color: white;
         }
         .game-container {
-            width: 100vw; /* Full width */
-            height: 80vh; /* Adjust height */
-            max-width: 1600px; /* Optional max width (change if needed) */
+            width: 100vw; /* Full screen width */
+            height: 100vh; /* Full screen height */
         }
         iframe {
-            width: 100%; /* Fill container width */
-            height: 100%; /* Fill container height */
+            width: 100%;
+            height: 100%;
             border: none;
+            display: block; /* Removes any extra space */
         }
     </style>
 </head>
@@ -34,3 +31,4 @@
     </div>
 </body>
 </html>
+
